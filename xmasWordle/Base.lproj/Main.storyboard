@@ -373,7 +373,18 @@ Challenge</string>
                                     <color key="baseForegroundColor" red="0.66023588180000004" green="0.0072191506619999997" blue="0.009973535314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="stopMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="61B-qp-P2S"/>
+                                    <action selector="playMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pmw-lf-SZg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5i-jc-9nb">
+                                <rect key="frame" x="22" y="47" width="46" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="bell.fill" catalog="system">
+                                    <color key="baseForegroundColor" red="0.66023588180000004" green="0.0072191506619999997" blue="0.009973535314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="stopMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kf4-MI-zzb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4k-ot-r6g">
@@ -719,7 +730,8 @@ Challenge</string>
                         <outlet property="enterBtn" destination="bs0-P7-wh9" id="b6Z-Q4-uoX"/>
                         <outlet property="gameInfoBtn" destination="eVc-11-g31" id="4wB-SK-SZU"/>
                         <outlet property="gameInfoView" destination="zqm-eD-bKS" id="u4Q-VA-Rly"/>
-                        <outlet property="musicSlashBtn" destination="MbL-tv-w2y" id="rMJ-cI-73N"/>
+                        <outlet property="pauseBth" destination="MbL-tv-w2y" id="hc9-r8-CvN"/>
+                        <outlet property="playBtn" destination="D5i-jc-9nb" id="bLy-OD-joA"/>
                         <outletCollection property="lettersLable" destination="y4k-ot-r6g" collectionClass="NSMutableArray" id="OW5-LN-qYP"/>
                         <outletCollection property="keyboardsBtn" destination="6vX-a9-X6C" collectionClass="NSMutableArray" id="mfg-Wg-Elq"/>
                         <outletCollection property="keyboardsBtn" destination="G6i-3S-2US" collectionClass="NSMutableArray" id="u7G-dN-tZ6"/>
@@ -784,6 +796,7 @@ Challenge</string>
         </scene>
     </scenes>
     <resources>
+        <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="bell.slash.fill" catalog="system" width="125" height="128"/>
         <image name="clear.fill" catalog="system" width="128" height="114"/>
         <image name="delete.backward" catalog="system" width="128" height="102"/>

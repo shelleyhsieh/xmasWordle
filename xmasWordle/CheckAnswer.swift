@@ -37,3 +37,7 @@ enum CheckAnswer {
         }
     }
 }
+
+class check{
+    
+}

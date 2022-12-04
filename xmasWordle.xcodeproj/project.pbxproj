@@ -15,6 +15,7 @@
 		D9344CD0292A169C00D01803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9344CCE292A169C00D01803 /* LaunchScreen.storyboard */; };
 		D934DDE4292F1A6400C722BF /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934DDE3292F1A6400C722BF /* Questions.swift */; };
 		D934DDE6292F3CD000C722BF /* CheckAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934DDE5292F3CD000C722BF /* CheckAnswer.swift */; };
+		D967F36B29385A1700C544BE /* Jingle Bell Rock .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D967F36A29385A1700C544BE /* Jingle Bell Rock .mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D9344CD1292A169C00D01803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D934DDE3292F1A6400C722BF /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		D934DDE5292F3CD000C722BF /* CheckAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAnswer.swift; sourceTree = "<group>"; };
+		D967F36A29385A1700C544BE /* Jingle Bell Rock .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jingle Bell Rock .mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D9344CCC292A169C00D01803 /* Assets.xcassets */,
 				D9344CCE292A169C00D01803 /* LaunchScreen.storyboard */,
 				D9344CD1292A169C00D01803 /* Info.plist */,
+				D967F36A29385A1700C544BE /* Jingle Bell Rock .mp3 */,
 			);
 			path = xmasWordle;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				D9344CD0292A169C00D01803 /* LaunchScreen.storyboard in Resources */,
 				D9344CCD292A169C00D01803 /* Assets.xcassets in Resources */,
+				D967F36B29385A1700C544BE /* Jingle Bell Rock .mp3 in Resources */,
 				D9344CCB292A169B00D01803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
